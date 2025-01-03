@@ -1,8 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { products } from '@/app/data/products'  // Upravený import
-import CompareDrawer from '@/app/components/CompareDrawer'  // Upravený import
+import { products } from './data/products'  // Změněno z '@/app/data/products'
+import CompareDrawer from './components/CompareDrawer'  // Změněno z '@/app/components/CompareDrawer'
 
 export default function Home() {
   const [compareProducts, setCompareProducts] = useState<string[]>([])
